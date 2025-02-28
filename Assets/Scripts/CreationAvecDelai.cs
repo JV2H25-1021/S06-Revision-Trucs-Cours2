@@ -9,7 +9,7 @@ public class CreationAvecDelai : MonoBehaviour
 
     private int _monnaies; /*Int = nombre entier (1, 2, 3, 4, 5' ect...). Float = Décimales (1.1, 1.2, 1.3, 1.4, ect...)*/
 
-    void Start()
+    public void Start()
     {
         // Éxecute la méthode CreerObjet après un délai de 5s
         // Invoke("CreerObjet", 5f);
